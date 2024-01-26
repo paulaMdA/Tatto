@@ -1,0 +1,69 @@
+/* Estilo común para el header y la barra de navegación */
+
+.header {
+    background-color: #212529;
+    padding: 2rem 0;
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase; 
+    letter-spacing: .1rem;
+}
+
+.header img {
+    width: 120px;
+    margin-bottom: .5rem;
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 1rem 0;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #212529;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #212529;
+    font-weight: 500;
+    padding: .5rem 1rem;
+}
+
+.navbar .navbar-nav .nav-link.active {
+    color: #a62f1c;
+}
+
+.search-form {
+    position: relative;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.search-input {
+    width: 100%;
+    padding: .5rem;
+    border: 1px solid #ccc;
+}
+
+.search-button, .btn{
+    background-color: #a62f1c;
+    padding: .5rem 1rem;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.redes a{
+    color:#a62f1c;
+}
+
+.breadcrumb a {
+    color:#a62f1c;
+}
